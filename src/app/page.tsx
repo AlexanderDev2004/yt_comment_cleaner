@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { FiYoutube } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -32,6 +33,15 @@ export default function Home() {
           >
             {" "}
             <FaInstagram />
+          </a>
+          <a
+            href="https://www.youtube.com/@SyntaXStreaM01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-[8px] text-[16px] font-semibold text-[#FF0000]"
+          >
+            {" "}
+            <FiYoutube />
           </a>
         </div>
       </main>
